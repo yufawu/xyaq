@@ -1,0 +1,28 @@
+{
+  "presets": [
+    [
+      "@babel/preset-es2015",
+      {
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "component",
+      {
+        "libraryName": "element-ui",
+        "styleLibraryName": "theme-chalk"
+      },
+      "element"
+    ],
+    [
+      "component",
+      {
+        "libraryName": "mint-ui",
+        "style": true
+      },
+      "mint"
+    ]
+  ]
+}

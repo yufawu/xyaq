@@ -1,0 +1,69 @@
+{
+  "name": "xyaq",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "axios": "^0.18.0",
+    "better-scroll": "^1.12.4",
+    "crypto-js": "^3.1.9-1",
+    "echarts": "^4.1.0",
+    "element-ui": "^2.4.1",
+    "exif-js": "^2.3.0",
+    "js-base64": "^2.4.5",
+    "lodash": "^4.17.10",
+    "mint-ui": "^2.2.13",
+    "qs": "^6.5.2",
+    "vue": "^2.5.16",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-cute-timeline": "^1.2.4",
+    "vue-jsonp": "^0.1.8",
+    "vue-photo-preview": "^1.0.9",
+    "vue-router": "^3.0.1",
+    "vue-wechat-title": "^2.0.4",
+    "vue2-better-scroll": "^1.0.7",
+    "vuex": "^3.0.1",
+    "weixin-js-sdk": "^1.3.3"
+  },
+  "devDependencies": {
+    "@babel/preset-es2015": "^7.0.0-beta.51",
+    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
+    "@vue/cli-service": "^3.0.0-beta.15",
+    "babel-plugin-component": "^1.1.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

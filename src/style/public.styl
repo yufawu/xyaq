@@ -1,0 +1,71 @@
+/**
+* @Description:
+* @Author:         wyf
+* @CreateDate:     2018/8/17 13:28
+*/
+//颜色,浅-light，深-deep,灰-gray,黑-black，红-red,
+//组合色：浅黑-lightBlack，浅灰-lightGray
+red-color = #f60f00;
+lightRed-color = #f80f30
+black-color = e#191919
+lightBlack-color = #33312
+gray-color = #898989
+gray2-color = #9d9d9d
+border-color =#ddd
+lightGray-color =  #a2a2a2
+blue-color = #1c71fb
+green-color = #03cb0d
+white-color = #f4f4f4
+
+//字体
+body{
+  font-family:"Microsoft Yahei"
+}
+.text_red{
+  color:lightRed-color
+}
+.text_green{
+  color:green-color
+}
+
+.text_blue {
+  color: blue-color
+}
+
+.text_gray {
+  color: gray-color
+}
+
+  //字体图标颜色设置
+  .icon-gouxuan{
+    color: blue-color
+  }
+
+//文字垂直对齐
+lineHeight($height){
+    height: px2vw($height)
+    line-height: px2vw($height)
+    }
+//文字溢出显示省略号
+textOverflow() {
+  overflow hidden
+  text-overflow ellipsis
+  white-space nowrap
+}
+
+//px转vw
+px2vw(size) {
+  return (size /designSize * 100)vw
+}
+
+fontSize(size, isMoblie = true)
+  if isMobile
+    font-size size
+    font-size px2vw(size)
+  else
+    font-size size
+
+
+
+
+
